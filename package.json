@@ -1,0 +1,44 @@
+{
+  "name": "react-jqcloud",
+  "version": "1.0.0",
+  "description": "This is create beautiful word clouds with react",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "dependencies": {
+    "jqcloud2": "^2.0.3",
+    "jquery": "^3.3.1",
+    "react": "^15.5.4",
+    "webpack": "^2.6.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XanderDwyl/react-jqcloud.git"
+  },
+  "keywords": [
+    "amchartslinechart"
+  ],
+  "author": {
+    "name": "Alexjander Bacalso",
+    "email": "janderbacalso@gmail.com"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XanderDwyl/react-jqcloud/issues"
+  },
+  "homepage": "https://github.com/XanderDwyl/react-jqcloud#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
+  }
+}
