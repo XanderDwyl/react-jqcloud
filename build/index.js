@@ -10538,13 +10538,13 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _AmChartSLineChart = __webpack_require__(1);
+var _reactJqcloud = __webpack_require__(1);
 
-var _AmChartSLineChart2 = _interopRequireDefault(_AmChartSLineChart);
+var _reactJqcloud2 = _interopRequireDefault(_reactJqcloud);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-exports.default = _AmChartSLineChart2.default;
+exports.default = _reactJqcloud2.default;
 
 /***/ }),
 /* 3 */
