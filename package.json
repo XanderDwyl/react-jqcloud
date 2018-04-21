@@ -1,6 +1,6 @@
 {
   "name": "react-jqcloud",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A wrapper of jqcloud to create beautiful word clouds with react",
   "main": "build/index.js",
   "peerDependencies": {
@@ -22,7 +22,9 @@
     "url": "git+https://github.com/XanderDwyl/react-jqcloud.git"
   },
   "keywords": [
-    "jqcloud", "wordcloud", "react-jqcloud"
+    "jqcloud",
+    "wordcloud",
+    "react-jqcloud"
   ],
   "author": {
     "name": "Alexjander Bacalso",
