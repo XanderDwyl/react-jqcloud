@@ -35,8 +35,8 @@ You can add issues here
 ```
 
 ## TODO
-[] Test
-[] Examples
+- [] Test
+- [] Examples
 
 ## Reference
 - https://github.com/lucaong
