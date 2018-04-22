@@ -10471,21 +10471,24 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
-var AmChartSLineChart = function (_Component) {
-  _inherits(AmChartSLineChart, _Component);
+var jqCloudReact = function (_Component) {
+  _inherits(jqCloudReact, _Component);
 
-  function AmChartSLineChart(props) {
-    _classCallCheck(this, AmChartSLineChart);
+  function jqCloudReact(props) {
+    _classCallCheck(this, jqCloudReact);
 
-    var _this = _possibleConstructorReturn(this, (AmChartSLineChart.__proto__ || Object.getPrototypeOf(AmChartSLineChart)).call(this, props));
+    var _this = _possibleConstructorReturn(this, (jqCloudReact.__proto__ || Object.getPrototypeOf(jqCloudReact)).call(this, props));
 
+    console.log(_this.props);
     _this.state = {
-      word_array: _this.props.word_array || []
+      word_array: _this.props.word_array || [],
+      jqStyle: _this.props.jqStyle || { width: '550px', height: '350px' },
+      jqID: _this.props.jqID || 'jqcloud'
     };
     return _this;
   }
 
-  _createClass(AmChartSLineChart, [{
+  _createClass(jqCloudReact, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
       this._wordCloud();
@@ -10504,7 +10507,7 @@ var AmChartSLineChart = function (_Component) {
         'div',
         { ref: function ref(a) {
             return _this2._cloud = a;
-          }, style: { width: "550px", height: "350px" } },
+          }, id: this.state.jqID, style: this.state.jqStyle },
         !this.state.word_array.length && _react2.default.createElement(
           'div',
           {
@@ -10522,10 +10525,10 @@ var AmChartSLineChart = function (_Component) {
     }
   }]);
 
-  return AmChartSLineChart;
+  return jqCloudReact;
 }(_react.Component);
 
-exports.default = AmChartSLineChart;
+exports.default = jqCloudReact;
 
 /***/ }),
 /* 2 */

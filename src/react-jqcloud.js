@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import jQCloud from 'jqcloud2';
 import $ from 'jquery';
 
-class AmChartSLineChart extends Component {
+class jqCloudReact extends Component {
   constructor(props) {
     super(props);
 
     this.state = { 
-      word_array: this.props.word_array || []
+      word_array: this.props.word_array || [],
+      jqStyle: this.props.jqStyle || { width: '550px', height: '350px' },
+      jqID: this.props.jqID || 'jqcloud',
     }
   }
 
@@ -21,7 +23,7 @@ class AmChartSLineChart extends Component {
 
   render() {
     return (
-      <div ref={a => this._cloud = a} style={{ width: "550px", height: "350px"}}>
+      <div ref={a => this._cloud = a} id={this.state.jqID} style={this.state.jqStyle}>
         {!this.state.word_array.length && 
           <div
             style={{
@@ -37,4 +39,4 @@ class AmChartSLineChart extends Component {
   }
 }
 
-export default AmChartSLineChart;
+export default jqCloudReact;
