@@ -10480,6 +10480,7 @@ var jqCloudReact = function (_Component) {
     var _this = _possibleConstructorReturn(this, (jqCloudReact.__proto__ || Object.getPrototypeOf(jqCloudReact)).call(this, props));
 
     console.log(_this.props);
+    console.log(props);
     _this.state = {
       word_array: _this.props.word_array || [],
       jqStyle: _this.props.jqStyle || { width: '550px', height: '350px' },
