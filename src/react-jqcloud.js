@@ -10,6 +10,8 @@ class jqCloudReact extends Component {
       word_array: this.props.word_array || [],
       jqStyle: this.props.jqStyle || { width: '550px', height: '350px' },
       jqID: this.props.jqID || 'jqcloud',
+      colors: this.props.colors || ["#800026", "#bd0026", "#e31a1c", "#fc4e2a", "#fd8d3c", "#feb24c", "#fed976", "#ffeda0", "#ffffcc"],
+      fontSize: this.props.fontSize || {from: 0.1,to: 0.02}
     }
   }
 
@@ -17,8 +19,13 @@ class jqCloudReact extends Component {
     this._wordCloud();
   }
 
-  _wordCloud() {
-    $(this._cloud).jQCloud(this.state.word_array);
+  _wordCloud() {    
+    $(this._cloud).jQCloud(this.state.word_array, {
+                        classPattern: null,
+                        colors: this.state.colors,
+                        fontSize: this.state.fontSize
+                        })
+
   }
 
   render() {
