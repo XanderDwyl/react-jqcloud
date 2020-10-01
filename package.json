@@ -9,8 +9,8 @@
   "dependencies": {
     "jqcloud2": "^2.0.3",
     "jquery": "^3.3.1",
-    "react": "^15.5.4",
-    "webpack": "^2.6.1"
+    "react": "^16.13.1",
+    "webpack": "^4.44.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -36,7 +36,7 @@
   },
   "homepage": "https://github.com/XanderDwyl/react-jqcloud#readme",
   "devDependencies": {
-    "babel-cli": "^6.24.1",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
