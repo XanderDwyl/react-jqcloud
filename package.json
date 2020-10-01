@@ -26,10 +26,7 @@
     "wordcloud",
     "react-jqcloud"
   ],
-  "author": {
-    "name": "Alexjander Bacalso",
-    "email": "janderbacalso@gmail.com"
-  },
+  "author": "Alexjander Bacalso <janderbacalso@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/XanderDwyl/react-jqcloud/issues"
@@ -42,5 +39,8 @@
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.5.1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
   }
 }
