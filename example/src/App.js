@@ -1,5 +1,6 @@
 import ReactJQCloud from 'react-jqcloud';
 import './App.css';
+import './jqcloud.css';
 
 const word_list = [
   { text: "Lorem", weight: 3 },
@@ -13,9 +14,9 @@ const word_list = [
   { text: "Hacktoberfest", weight: 5 },
   { text: "2021", weight: 5.3 },
   { text: "Election", weight: 5 },
-  { text: "Philippines", weight: 2.37 },
+  { text: "Philippines", weight: 35 },
   { text: "Typhoon", weight: 3.89 },
-  { text: "Infected", weight: 90 },
+  { text: "Infected", weight: 9 },
   { text: "Recovery", weight: 20 },
   { text: "Vaccine", weight: 24 },
   { text: "Pandemic", weight: 6 }
